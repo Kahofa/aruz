@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+body{
+    font: 30px 'Itim', cursive;
+    background: #91b2f8;
+    color:#1e1a40 ;
+    
+}
+h1{
+    text-align: center;
+    font: 30px 'Itim', cursive;
+    background: -webkit-linear-gradient(45deg, #1e1a40,  #6600FF 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.мы{
+    width: 300px;
+    border-radius: 40s;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(3, 0, 5, 0.25);
+    margin-top: -20px;
+    
+}
+ .мы1 {
+    width: 300px; 
+    padding: 0px; 
+    border-radius: 30px; 
+  } 
+  
+ 
+
+.text{
+    background: -webkit-linear-gradient(45deg, #1e1a40,  #6600FF 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.photo{
+    text-align: center;
+
+}
+a{
+    margin-top: -10px;
+    color: #1e1a40;
+    text-align: center;
+    text-decoration: none;
+    display: block; 
+     text-align:center;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color:brown;
+}
+.bg-1{
+    background: #6600FF;
+}
+.video{
+    margin: 23px 183px;
+    padding: 15px 20px; 
+    margin-bottom: 20px;
+    border-radius: 30px;
+}.sylka li{
+    margin-bottom: 2px;
+    padding: 1px 1px;
+    border-bottom: 2px solid #1e1a40;
+
+}
+.sylka li:nth-child(1),
+.sylka li:nth-child(2){
+    width: 85%;
+}
+.sylka li:nth-child(3){
+    width: 95%;
+} 
+/*   */
+ .box{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    /* top: 50px;
+    left: 40px; */
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    
+
+ }
+ .hard{
+    width: 75px;
+    border-radius: 50%;
+   
+ }
+
+
+
+   
+
+
+
+.we1   {  /*  это картинка нa one.html */
+        border-top-left-radius: 37px 140px;
+        border-top-right-radius: 23px 130px;
+        border-bottom-left-radius: 110px 19px;
+        border-bottom-right-radius: 120px 24px;
+        display: block;
+        position: relative;
+        border: solid 3px #6e7491;
+        padding: 40px 60px;
+        max-width: 300px;
+        width: 70%;
+        margin: 80px auto 0;
+        font-size: 17px;
+        line-height: 28px;
+        transform: rotate(-1deg);
+        box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+        transition: all 0.13s ease-in;
+    }
+    
+    .we1:hover {
+        transform: translateY(-10px) rotate(1deg);
+        box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .we1:hover .border {
+        transform: translateY(4px) rotate(-5deg);
+    }
+
+
+
+
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+    span {
+      font-family: 'Bebas Neue', cursive;
+      font-size: 20px;
+      position: absolute;
+      bottom: -330px;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      background-image: linear-gradient(#6600FF, #6600FF);
+      background-size: 100% 10px;
+      background-repeat: no-repeat;
+      background-position: 100% 0%;
+       transition: background-size .7s, background-position .5s ease-in-out;
+      border-bottom: 2px;
+    }
+    
+    span:hover {
+      background-size: 100% 100%;
+      background-position: 0% 100%;
+      transition: background-position .7s, background-size .5s ease-in-out;
+    }
